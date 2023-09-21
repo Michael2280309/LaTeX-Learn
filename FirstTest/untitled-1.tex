@@ -1,0 +1,16 @@
+\documentclass[a4paper,11pt]{article} % является объявлением (declaration)
+\title{Example 2}
+\author{Michael}
+\date{September 15, 2023}  % конец преамбулы (шапки)
+%\usepackage{comment}
+\begin{document} % начало окружения (environment)
+\maketitle % makes title with \title \author and \date
+\section{What's this?} % заголовок раздела
+This is my second document. It contains a title and a% теперь будет отображено "asection ...", - конец строки игнорируется процентом, -  пробел отсутствует.
+section with .
+
+% пустая строка между текстом служит как новый абзацный отступ.
+Statement \#1: 
+50\% of \$100 equals \$50.
+More special symbols are \&, \_, \textbackslash, \{ and \}.
+\end{document}

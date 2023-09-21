@@ -1,0 +1,18 @@
+%\documentclass{article}
+%\begin{document}
+%\textsf{\textbf{Get help on the Internet}} % bold sans-serif
+%\texttt{https://latex.org} is a support forum for \LaTeX. %monospaced link
+%\end{document}
+% Следующий фрагмент эквивалентен первому. Отличие - использование объявлений (declarations) вместо комманд.
+
+\documentclass{article}
+\begin{document}
+\sffamily\bfseries Get help on the Internet % аналогично, \itshape является декларацией косого типа
+\normalfont\ttfamily https://latex.org\normalfont\ is % слеш после \normalfont нужен для окончания перед пробелом
+a support forum for \LaTeX. 
+
+\sffamily\ttfamily T Monospaced sans-serif. % Just like normal monospace
+
+\normalfont\ttfamily T Normal monospaced. % No difference
+% sans-serif, monospace, normal - СЕМЕЙСТВА, ГАРНИТУРА шрифтов. A bfseries, itshape - ТИПЫ шрифтов.
+\end{document}
